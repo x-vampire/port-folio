@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    color: white;
+    background-color: black;
+
+}
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+.nav-left{
+    padding-left:20px;
+    padding-top: 10px;;
+}
+.nav-right{
+    padding-right:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.element{
+    padding:7px;
+    margin:5px;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height:50vh;
+}.home-left{
+    width:50vw;
+    padding-left: 200px;
+    text-align: right;
+    
+}   
+.home-right{
+    width:50vw;
+    padding-left: 100px;
+
+}
+.profile{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.home-h1{
+    font-family: 'Happy Monkey';
+}
+.home-p{
+    font-family: 'Encode Sans';
+}
+.services{
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.sh{
+    font-family: 'Happy Monkey';
+}
+.sp{
+    font-family: 'Encode Sans';
+}
+.service-h{
+    color:rgb(55, 136, 55);
+    font-style: italic;
+}.services-subtopics{
+    display:flex;
+    flex-direction: row;
+}
+.service-cards{
+    margin:20px;
+    border:2px solid rgb(36, 110, 36);
+    width:400px;
+}
+.contact{
+    padding-left: 20px;
+    font-family: 'Happy Monkey';
+    text-align: center;
+}
+.insta,.utube{
+    height:50px;
+    margin-left:20px;
+}
+.img-logo{
+    height:50px;
+}
